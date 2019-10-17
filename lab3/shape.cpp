@@ -1,10 +1,6 @@
 //
 //  shape.cpp skeleton
 //  lab3
-//
-//  Created by Tarek Abdelrahman on 2018-08-25.
-//  Copyright © 2018 Tarek Abdelrahman. All rights reserved.
-//
 
 #include <iostream>
 #include <string>
