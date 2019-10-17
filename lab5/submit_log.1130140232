@@ -1,0 +1,100 @@
+Submitting assignment 5 from p10.ecf.utoronto.ca
+Checking for the expected files in the current directory
+Main.cpp DBentry.h DBentry.cpp TreeNode.cpp TreeNode.h TreeDB.h TreeDB.cpp
+Attempting to build your code.  Make output follows:
+==================================================================
+scl enable devtoolset-4 'g++ -std=c++0x -c Main.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x -c TreeDB.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x -c TreeNode.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x -c DBentry.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x Main.o TreeDB.o TreeNode.o DBentry.o -o db'
+------------------------------------------------------------------
+The build appears to have been successful
+
+Running exercise on the produced executable 'db'
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 4 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 5 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 6 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+################# Summary for 6 test(s) #####################
+Functionality: PASS: All tests passed
+Valgrind:      PASS: No memory leaks detected
+
+The required files passed exercise
+
+Submitting files
+
+Verifying submission
+submitece244f -l 5
+total 260
+-rw-r----- 1 submit ece244f 1564 Nov 30 14:02 DBentry.cpp
+-rw-r----- 1 submit ece244f 1110 Nov 30 14:02 DBentry.h
+-rw-r----- 1 submit ece244f 2904 Nov 30 14:02 Main.cpp
+-rw-r----- 1 submit ece244f  619 Nov 30 05:07 submit_log.1130050741
+-rw-r----- 1 submit ece244f  439 Nov 30 05:13 submit_log.1130051303
+-rw-r----- 1 submit ece244f 1604 Nov 30 05:15 submit_log.1130051458
+-rw-r----- 1 submit ece244f 1604 Nov 30 05:44 submit_log.1130054429
+-rw-r----- 1 submit ece244f  619 Nov 30 05:57 submit_log.1130055714
+-rw-r----- 1 submit ece244f 1577 Nov 30 05:58 submit_log.1130055752
+-rw-r----- 1 submit ece244f 1112 Nov 30 07:21 submit_log.1130072115
+-rw-r----- 1 submit ece244f 1445 Nov 30 07:24 submit_log.1130072448
+-rw-r----- 1 submit ece244f 1604 Nov 30 07:29 submit_log.1130072925
+-rw-r----- 1 submit ece244f 1598 Nov 30 07:34 submit_log.1130073403
+-rw-r----- 1 submit ece244f 1112 Nov 30 07:38 submit_log.1130073742
+-rw-r----- 1 submit ece244f 1598 Nov 30 07:38 submit_log.1130073809
+-rw-r----- 1 submit ece244f 1434 Nov 30 07:39 submit_log.1130073942
+-rw-r----- 1 submit ece244f 1434 Nov 30 07:44 submit_log.1130074438
+-rw-r----- 1 submit ece244f 1112 Nov 30 08:00 submit_log.1130075003
+-rw-r----- 1 submit ece244f 2054 Nov 30 08:01 submit_log.1130080052
+-rw-r----- 1 submit ece244f 2069 Nov 30 09:06 submit_log.1130090545
+-rw-r----- 1 submit ece244f  771 Nov 30 09:40 submit_log.1130093624
+-rw-r----- 1 submit ece244f 3680 Nov 30 09:40 submit_log.1130094041
+-rw-r----- 1 submit ece244f 3749 Nov 30 09:41 submit_log.1130094141
+-rw-r----- 1 submit ece244f 3791 Nov 30 10:13 submit_log.1130101306
+-rw-r----- 1 submit ece244f 3859 Nov 30 10:41 submit_log.1130104143
+-rw-r----- 1 submit ece244f 3927 Nov 30 10:47 submit_log.1130104714
+-rw-r----- 1 submit ece244f 3995 Nov 30 10:53 submit_log.1130105300
+-rw-r----- 1 submit ece244f 4063 Nov 30 10:56 submit_log.1130105651
+-rw-r----- 1 submit ece244f 4131 Nov 30 12:11 submit_log.1130121121
+-rw-r----- 1 submit ece244f 4199 Nov 30 12:12 submit_log.1130121232
+-rw-r----- 1 submit ece244f 4267 Nov 30 12:21 submit_log.1130122139
+-rw-r----- 1 submit ece244f 4335 Nov 30 12:36 submit_log.1130123611
+-rw-r----- 1 submit ece244f 4403 Nov 30 12:50 submit_log.1130125039
+-rw-r----- 1 submit ece244f 1917 Nov 30 12:52 submit_log.1130125159
+-rw-r----- 1 submit ece244f 4539 Nov 30 12:52 submit_log.1130125237
+-rw-r----- 1 submit ece244f 1577 Nov 30 13:03 submit_log.1130130237
+-rw-r----- 1 submit ece244f 2044 Nov 30 13:03 submit_log.1130130303
+-rw-r----- 1 submit ece244f 4743 Nov 30 13:03 submit_log.1130130328
+-rw-r----- 1 submit ece244f 4811 Nov 30 13:07 submit_log.1130130753
+-rw-r----- 1 submit ece244f 4879 Nov 30 13:19 submit_log.1130131935
+-rw-r----- 1 submit ece244f 4947 Nov 30 13:34 submit_log.1130133358
+-rw-r----- 1 submit ece244f 2049 Nov 30 13:40 submit_log.1130134017
+-rw-r----- 1 submit ece244f 2025 Nov 30 13:46 submit_log.1130134603
+-rw-r----- 1 submit ece244f 2025 Nov 30 13:48 submit_log.1130134810
+-rw-r----- 1 submit ece244f 1428 Nov 30 13:51 submit_log.1130135114
+-rw-r----- 1 submit ece244f 2025 Nov 30 13:55 submit_log.1130135451
+-rw-r----- 1 submit ece244f 2049 Nov 30 13:59 submit_log.1130135900
+-rw-r----- 1 submit ece244f 5423 Nov 30 14:01 submit_log.1130140109
+-rw-r----- 1 submit ece244f 8320 Nov 30 14:02 TreeDB.cpp
+-rw-r----- 1 submit ece244f 2369 Nov 30 14:02 TreeDB.h
+-rw-r----- 1 submit ece244f  813 Nov 30 14:02 TreeNode.cpp
+-rw-r----- 1 submit ece244f  781 Nov 30 14:02 TreeNode.h
+
+All filesizes match. All timestamps match submission time.
+
+Submission was successful
+
