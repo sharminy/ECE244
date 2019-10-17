@@ -1,10 +1,6 @@
 //
 //  playMove.cpp
-//  TicTacTo
-//
-//  Created by Tarek Abdelrahman on 2018-05-15.
-//  Copyright © 2018 Tarek Abdelrahman. All rights reserved.
-//
+
 
 #include <iostream>
 #include <tic-tac-toe/playMove.h>
