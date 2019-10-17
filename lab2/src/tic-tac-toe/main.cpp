@@ -1,11 +1,6 @@
 //
 //  main.cpp
-//  TicTacTo
-//
-//  Created by Tarek Abdelrahman on 2018-05-15.
-//  Copyright © 2018 Tarek Abdelrahman. All rights reserved.
-//  
-//  Lab 2 - Sharmin Yousuf Student ID 1004182760
+//  TicTacToe
 
 #include <SFML/Graphics.hpp>
 #include <iostream>
